@@ -16,7 +16,8 @@ Le but de ce TP est de se familiariser avec :
 
 ## Déroulement
 
-Partir d'un répertoire de travail :
+Partir d'un répertoire de travail (par exeple `workspace`). 
+Dans une console (bash ou gitBash) :
 
     cd ~/workspace
     git clone https://github.com/Giwi/xmlbeer.git
@@ -24,6 +25,8 @@ Partir d'un répertoire de travail :
     rm -fr .git
 
 Puis importer ce projet avec IntelliJ (en choisissant le fichier `build.gradle`).
+
+Enfin, bosser : 
 
 - [TP 1](./step1) : CSS et feuille de transformation XSLT
 - [TP 2](./step2) : Transformation avec Java
