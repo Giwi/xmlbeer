@@ -13,6 +13,7 @@ Le but de ce TP est de se familiariser avec :
 ## Prérequis
 
 - JDK8
+- Git
 
 ## Déroulement
 
