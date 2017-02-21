@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <wildcardResourcePatterns>
+      <entry name="!?*.java" />
+      <entry name="!?*.form" />
+      <entry name="!?*.class" />
+      <entry name="!?*.groovy" />
+      <entry name="!?*.scala" />
+      <entry name="!?*.flex" />
+      <entry name="!?*.kt" />
+      <entry name="!?*.clj" />
+    </wildcardResourcePatterns>
+    <bytecodeTargetLevel target="1.8">
+      <module name="beerxml_main" target="1.8" />
+      <module name="beerxml_test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="Encoding">
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="modificationStamps">
+      <map>
+        <entry key="$USER_HOME$/Dropbox/Eclipse/Vinz" value="2868723958403" />
+        <entry key="$USER_HOME$/Dropbox/Eclipse/Vinz-web" value="1434359709955" />
+        <entry key="$USER_HOME$/Dropbox/Eclipse/neature/neature-back" value="2922669383805" />
+        <entry key="$USER_HOME$/Dropbox/Eclipse/qaobee-hive" value="2894721050000" />
+        <entry key="$USER_HOME$/Dropbox/qaobee/esn-projects/xxx-back" value="2886266302839" />
+        <entry key="$USER_HOME$/demoVertX/vertx-ha-demo" value="2952384763036" />
+        <entry key="$PROJECT_DIR$/../../FuelViz" value="2957448814567" />
+        <entry key="$PROJECT_DIR$/../../Simple-BeerAPI" value="1478508904119" />
+        <entry key="$PROJECT_DIR$/../../baobaab" value="2954103205836" />
+        <entry key="$PROJECT_DIR$/../../bleuroi-suitecrm" value="2974501742584" />
+        <entry key="$PROJECT_DIR$" value="1487693789048" />
+        <entry key="$PROJECT_DIR$/../../fbchatbot" value="2966865359199" />
+        <entry key="$PROJECT_DIR$/../../giwitter" value="2955283809158" />
+        <entry key="$PROJECT_DIR$/../../qaobee-hive" value="2967389477404" />
+        <entry key="$PROJECT_DIR$/../../qswarm-web" value="1483694623651" />
+        <entry key="$USER_HOME$/workspace/swagger-generator" value="2883620601477" />
+        <entry key="$USER_HOME$/workspaceFTO/Smoketest" value="1466515120584" />
+        <entry key="$USER_HOME$/workspaceOpen/SouscriptionBO" value="1473770342106" />
+      </map>
+    </option>
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="createEmptyContentRootDirectories" value="true" />
+        <option name="distributionType" value="WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleJvm" value="#JAVA_HOME" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+          </set>
+        </option>
+        <option name="useAutoImport" value="true" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+  <component name="InspectionProjectProfileManager">
+    <profile version="1.0">
+      <option name="myName" value="Project Default" />
+    </profile>
+    <version value="1.0" />
+  </component>
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/beerxml.iml" filepath="$PROJECT_DIR$/.idea/modules/beerxml.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/beerxml_main.iml" filepath="$PROJECT_DIR$/.idea/modules/beerxml_main.iml" group="beerxml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/beerxml_test.iml" filepath="$PROJECT_DIR$/.idea/modules/beerxml_test.iml" group="beerxml" />
+    </modules>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/classes" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/workspacefinanco/webbareme" />
+    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
+  <component name="ThriftCompiler">
+    <compilers />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>groovy-1.8.6</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
