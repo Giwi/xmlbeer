@@ -69,7 +69,7 @@ et normalement, un fichier `build/beers.html` a été créé, vous pouvez vérif
 > Gradle offre des sucres syntaxiques. Par exemple :  `./gradlew run` peut être remplacé par
 > `./gradlew r`. Et si vous voulez bien nettoyer avant exécution, il existe une tâche `clean`.
 > Vous pouvez même chaîner les tâches (soit directement dans le `build.gradle`, mais ça a peu 
-> d'intérêt) dans notre cas, soit en ligne de commande :
+> d'intérêt dans notre cas), soit en ligne de commande :
 > ```bash
 > ./gradlew clean r
 > ```
