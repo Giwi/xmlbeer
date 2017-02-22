@@ -1,8 +1,4 @@
-# TP 3 : Parsing avec Java
+# TP 4 : Création d'un WebService SOAP
 
-Pour parser du XML (et ses dérivés) avec Java, il y a principalement 2 solutions :  
-
-- DOM : javax.xml.parsers.DocumentBuilder
-- SAX : org.xml.sax
-
+TODO
 
