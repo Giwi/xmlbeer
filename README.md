@@ -29,7 +29,7 @@ Puis importer ce projet avec IntelliJ (en choisissant le fichier `build.gradle`)
 
 Enfin, bosser : 
 
-- [TP 1](./step1) : CSS et feuille de transformation XSLT
+- [TP 1](./step1) : CSS et feuille de transformation XSLT et XPath
 - [TP 2](./step2) : Transformation avec Java
 - [TP 3](./step3) : Parsing avec Dom
 - [TP 4](./step4) : Parsing avec Sax
