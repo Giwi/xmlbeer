@@ -1,4 +1,4 @@
-# Step 1 : CSS et feuille de transformation XSLT
+# TP 1 : CSS et feuille de transformation XSLT
 
 ## CSS
 
@@ -119,23 +119,24 @@ Puis ajouter des templates pour essayer  d'avoir ce résultat :
 
 ![cpt2](assets/cpt2.png)
 
-Pour les images : 
-
-```xml
-<xsl:template match="img">
-    <xsl:element name="img">
-        <xsl:attribute name="class">card-img-top img-fluid</xsl:attribute>
-        <xsl:attribute name="alt"><xsl:value-of select="."/></xsl:attribute>
-        <xsl:attribute name="src">https://raw.githubusercontent.com/Giwi/jquery-beer/master/<xsl:value-of select="."/></xsl:attribute>
-    </xsl:element>
-</xsl:template>
-```
-
-Ajouter un espace : 
-
-```xml
-<xsl:text>&#xA0;</xsl:text>
-```
+> #####Trucs et astuces : 
+> Pour les images : 
+> 
+> ```xml
+> <xsl:template match="img">
+>     <xsl:element name="img">
+>         <xsl:attribute name="class">card-img-top img-fluid</xsl:attribute>
+>         <xsl:attribute name="alt"><xsl:value-of select="."/></xsl:attribute>
+>         <xsl:attribute name="src">https://raw.githubusercontent.com/Giwi/jquery-beer/master/<xsl:value-of select="."/></xsl:attribute>
+>     </xsl:element>
+> </xsl:template>
+> ```
+> 
+> Ajouter un espace : 
+> 
+> ```xml
+> <xsl:text>&#xA0;</xsl:text>
+> ```
 
 Peut-être pourrions nous conditionner la couleur de la carte au degré d'alcool : 
 
@@ -144,3 +145,17 @@ Peut-être pourrions nous conditionner la couleur de la carte au degré d'alcool
     <xsl:attribute name="class">card card-inverse text-center card-danger</xsl:attribute>
 </xsl:if>
 ```
+
+## Pour aller plus loin
+
+Il est possible de trier un for-each sur une propriété :
+
+```xml
+<xsl:for-each select="beers/beer">
+    <xsl:sort select="alcohol" order="ascending" data-type="number" />
+</xsl:for-each>
+```
+
+## La suite 
+
+Aller zou! direction le [TP 2](../step2).

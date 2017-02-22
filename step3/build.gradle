@@ -6,3 +6,5 @@ apply plugin:'application'
 task wrapper(type: Wrapper) {
     gradleVersion = '3.4'
 }
+
+mainClassName = 'org.giwi.xml.Main'
