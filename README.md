@@ -31,7 +31,5 @@ Enfin, bosser :
 
 - [TP 1](./step1) : CSS et feuille de transformation XSLT et XPath
 - [TP 2](./step2) : Transformation avec Java
-- [TP 3](./step3) : Parsing avec Dom
-- [TP 4](./step4) : Parsing avec Sax
-- [TP 5](./step5) : XPath
-- [TP 6](./step6) : Création d'un WebService SOAP
+- [TP 3](./step3) : Parsing avec Java
+- [TP 4](./step4) : Création d'un WebService SOAP

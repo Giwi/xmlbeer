@@ -1,0 +1,10 @@
+apply plugin: 'java'
+apply plugin: 'idea'
+apply plugin: 'eclipse'
+apply plugin:'application'
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '3.4'
+}
+
+mainClassName = 'org.giwi.xml.Main'
