@@ -173,6 +173,20 @@ et implémentez le tout dans `org.giwi.xml.server.BeerServiceImpl`.
 
 Enfin, modifiez `org.giwi.xml.client.Client` pour définir un petit scénario pour tester vos services
 
+### Features
+
+CXF apporte quelques handlers dont un bien pratiquen mettons le en oeuvre, modifiez `org.giwi.xml.server.BeerService` : 
+ 
+```java
+@WebService
+@Features(classes = {LoggingFeature.class})
+public interface BeerService {
+    [...]
+}
+```
+
+Redémarrez le serveur et le client et observez.
+
 ## Génération d'un client
 
 Vous avez vu que pour développer le client, in faut avoir le modèle objet exposé sous la main?
