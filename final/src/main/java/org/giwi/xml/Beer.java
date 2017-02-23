@@ -1,8 +1,5 @@
 package org.giwi.xml;
 
-/**
- * The type Beer.
- */
 public class Beer {
     private String id;
     private String name;
@@ -10,11 +7,6 @@ public class Beer {
     private String img;
     private double alcohol;
 
-    /**
-     * To string string.
-     *
-     * @return the string
-     */
     @Override
     public String toString() {
         return "Beer{" +

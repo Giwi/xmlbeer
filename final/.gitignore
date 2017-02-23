@@ -1,0 +1,7 @@
+gradle*
+build
+.idea
+.gradle
+classes
+apache-cxf-2.7.18
+generated

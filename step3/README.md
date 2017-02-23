@@ -74,6 +74,7 @@ Puis modifions la classe `org.giwi.xml.Main`
 ```java
  new DomParser().getList(new File(Main.class.getResource("/beers.xml").toURI())).forEach(System.out::println);
 ```
+
 > #####Trucs et astuces : 
 > Pour avoir un objet `File` à présent dans le classpath : 
 > ```java

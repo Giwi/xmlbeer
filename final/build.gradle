@@ -1,0 +1,24 @@
+allprojects {
+    repositories {
+        jcenter()
+    }
+}
+apply plugin: 'java'
+apply plugin: 'idea'
+apply plugin: 'eclipse'
+apply plugin: 'application'
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '3.4'
+}
+
+mainClassName = 'org.giwi.xml.Main'
+
+dependencies {
+    compile 'org.apache.cxf:cxf-bundle:2.7.18'
+}
+
+task runClient(type: JavaExec, dependsOn: 'classes') {
+    main = 'org.giwi.xml.client.Client'
+    classpath = sourceSets.main.runtimeClasspath
+}
