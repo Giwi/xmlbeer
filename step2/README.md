@@ -53,7 +53,8 @@ t.transform(
 );
 ```
 
-> #####Trucs et astuces : 
+> ##### Trucs et astuces : 
+>
 > `Main.class.getResourceAsStream` permet de piocher un fichier présent dans le classpath
 > en l'occurrence dans `src/main/resources`
 
@@ -65,7 +66,8 @@ Exécutons le code avec
 
 et normalement, un fichier `build/beers.html` a été créé, vous pouvez vérifier en l'ouvrant avec un navigateur.
  
-> #####Trucs et astuces : 
+> ##### Trucs et astuces : 
+>
 > Gradle offre des sucres syntaxiques. Par exemple :  `./gradlew run` peut être remplacé par
 > `./gradlew r`. Et si vous voulez bien nettoyer avant exécution, il existe une tâche `clean`.
 > Vous pouvez même chaîner les tâches (soit directement dans le `build.gradle`, mais ça a peu 

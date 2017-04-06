@@ -158,4 +158,4 @@ Il est possible de trier un for-each sur une propriété :
 
 ## La suite 
 
-Aller zou! direction le [TP 2](../step2).
+Aller zou! Direction le [TP 2](../step2).
