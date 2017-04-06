@@ -15,7 +15,7 @@ Le but de ce TP est de se familiariser avec :
 - JDK8
 - Git
 
-## Déroulement
+## Déroulement
 
 Partir d'un répertoire de travail (par exeple `workspace`). 
 Dans une console (bash ou gitBash) :
