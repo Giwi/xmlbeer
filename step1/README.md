@@ -5,13 +5,13 @@
 Commencez par ajouter la déclaration xml qui va bien en tête du fichier
 `src/main/resources/beers.xml` : 
 
-    <?xml-stylesheet href= "style.css" type="text/css"?>
+    <?xml-stylesheet href="style.css" type="text/css" ?>
 
 Puis créez un fichier `src/main/resources/style.css` pour essayer d'avoir ce résultat : 
 
 ![cpt1](assets/cpt1.png)
 
-## XSLT
+## XSLT
 
 Afin de by-passer quelques restrictions de Chrome, je vous encourage à utiliser Firefox.
 
@@ -19,11 +19,11 @@ On va essayer de faire mieux :
 
 Dans `src/main/resources/beers.xml` :
 
-    <?xml-stylesheet type="text/xsl" href= "style.xsl" ?>
+    <?xml-stylesheet type="text/xsl" href="style.xsl" ?>
     
 Et retirez : 
 
-    <?xml-stylesheet href= "style.css" type="text/css"?>
+    <?xml-stylesheet href="style.css" type="text/css" ?>
 
 Puis créez un fichier `src/main/resources/style.xsl` : 
 
@@ -82,7 +82,7 @@ Itérons sur les bières avec un peu de [Bootstrap 4](https://v4-alpha.getbootst
 </xsl:template>
 ```
 
-Pour modulariser, on peut utilise `<xsl:apply-templates select="..." ></xsl:apply-templates>` :
+Pour modulariser, on peut utiliser `<xsl:apply-templates select="..." ></xsl:apply-templates>` :
 
 ```xml
 <xsl:template match="/">
@@ -115,11 +115,11 @@ ou encore :
 </xsl:template>
 ```
 
-Puis ajouter des templates pour essayer  d'avoir ce résultat :
+Puis ajouter des templates pour essayer d'avoir ce résultat :
 
 ![cpt2](assets/cpt2.png)
 
-> #####Trucs et astuces : 
+> ##### Trucs et astuces : 
 > Pour les images : 
 > 
 > ```xml
