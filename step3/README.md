@@ -72,10 +72,13 @@ public class DomParser {
 Puis modifions la classe `org.giwi.xml.Main`
 
 ```java
- new DomParser().getList(new File(Main.class.getResource("/beers.xml").toURI())).forEach(System.out::println);
+ new DomParser()
+     .getList(new File(Main.class.getResource("/beers.xml").toURI()))
+     .forEach(System.out::println);
 ```
 
-> #####Trucs et astuces : 
+> ##### Trucs et astuces : 
+>
 > Pour avoir un objet `File` à présent dans le classpath : 
 > ```java
 > File f = new File(
@@ -91,7 +94,7 @@ Puis modifions la classe `org.giwi.xml.Main`
 > d'une boucle for : 
 > `list.forEach( item -> { System.out.println(item) })`
 > on peut également simplifier cette notation :
-> `liste.forEach(System.out::println)` cad, on invoque la méthode `println` en lui passant 
+> `liste.forEach(System.out::println)` c'est à dire, on invoque la méthode `println` en lui passant 
 > l'item de la liste en argument. On peut ainsi avoir ce type de syntaxe : 
 > `list.forEach(this::action)`
 
@@ -99,9 +102,14 @@ Et si on calculait le temps que ça prend?
 
 ```java
 long start = System.currentTimeMillis();
-new DomParser().getList(new File(Main.class.getResource("/beers.xml").toURI())).forEach(System.out::println);
+
+new DomParser()
+   .getList(new File(Main.class.getResource("/beers.xml").toURI()))
+   .forEach(System.out::println);
+
 System.out.println("DOM : " + (System.currentTimeMillis() - start) + " ms");
 ```
+
 Exécutons le code avec
 
 ```bash
@@ -192,11 +200,13 @@ public class SaxParser extends DefaultHandler {
 }
 ```
 
-Puis modifions la classe `org.giwi.xml.Main` et mesurons : 
+Puis modifions la classe `org.giwi.xml.Main` et mesurons le temps que ça prend : 
 
 ```java
 long start = System.currentTimeMillis();
-new SaxParser().getList(new File(Main.class.getResource("/beers.xml").toURI())).forEach(System.out::println);
+new SaxParser()
+  .getList(new File(Main.class.getResource("/beers.xml").toURI()))
+  .forEach(System.out::println);
 System.out.println("SAX : " + (System.currentTimeMillis() - start) + " ms");
 ```
 
@@ -206,18 +216,21 @@ Exécutons le code avec
 ./gradlew run
 ```
 
-## Benchmark SAX vs DOM
+## Benchmark SAX vs DOM
+
 Modifions la classe `org.giwi.xml.Main` sans afficher le contenu du fichier XML et mesurons : 
 
 ```java
 long start = System.currentTimeMillis();
 // Parsing avec DOM
-new DomParser().getList(new File(Main.class.getResource("/beers.xml").toURI()));
+new DomParser()
+  .getList(new File(Main.class.getResource("/beers.xml").toURI()));
 System.out.println("DOM : " + (System.currentTimeMillis() - start) + " ms");
 
 start = System.currentTimeMillis();
 // Parsing avec SAX
-new SaxParser().getList(new File(Main.class.getResource("/beers.xml").toURI()));
+new SaxParser()
+  .getList(new File(Main.class.getResource("/beers.xml").toURI()));
 System.out.println("SAX : " + (System.currentTimeMillis() - start) + " ms");
 ```
 
