@@ -28,7 +28,7 @@ dependencies {
 }
 ```
 
-### La partie serveur
+### La partie serveur
 
 Créez une interface `org.giwi.xml.server.BeerService` :
 
@@ -117,14 +117,14 @@ Puis dans un autre terminal (Le serveur étant toujours up) :
 ./gradlew runClient
 ```
 
-## Beer service
+## Beer service
 
 Allons plus loin et définissons un ensemble de services pour gérer notre catalogue de bières.
 L'idée est de charger notre fichier XML (avec SAX hein!) au démarrage du serveur dans un singleton.
 
 Vous pouvez couper le seerveur (CTRL+C) ;)
 
-Créons ce singleton `org.giwi.xml.data.BeersList` et observez le pattern singleton de type holder :
+Créons ce singleton `org.giwi.xml.data.BeersList` et observez et admirez le pattern singleton de type holder :
 
 ```java
 public class BeersList {
@@ -171,7 +171,7 @@ public interface BeerService {
 
 et implémentez le tout dans `org.giwi.xml.server.BeerServiceImpl`.
 
-Enfin, modifiez `org.giwi.xml.client.Client` pour définir un petit scénario pour tester vos services
+Enfin, modifiez `org.giwi.xml.client.Client` pour définir un petit scénario pour tester vos services.
 
 ### Features
 
@@ -202,7 +202,8 @@ apache-cxf-2.7.18/bin/wsdl2java -d generated -client http://localhost:9000/BeerS
 
 Vous retrouverez une implémentation de client dans `generated/org.giwi.xml.server.BeerService_BeerServicePort_Client`
 
-> #####Trucs et astuces : 
+> ##### Trucs et astuces : 
+>
 > Avec le JDK8 est apparu quelques restrictions de sécurité, éditez le fichier  
 > `apache-cxf-2.7.18/bin/wsdl2java` ou `apache-cxf-2.7.18/bin/wsdl2java.bat` (en fonction de l'OS)
 > et ajoutez l'option java `-Djavax.xml.accessExternalSchema=all` juste avant `-Djava.util.logging.config[...]`
