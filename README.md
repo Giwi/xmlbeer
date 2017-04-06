@@ -17,7 +17,7 @@ Le but de ce TP est de se familiariser avec :
 
 ## Déroulement
 
-Partir d'un répertoire de travail (par exeple `workspace`). 
+Partir d'un répertoire de travail (par exemple `workspace`). 
 Dans une console (bash ou gitBash) :
 
     cd ~/workspace
