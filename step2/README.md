@@ -16,7 +16,7 @@ public class Main {
 }
 ```
 
-Ajoutez au `buid.gradle` :
+Ajoutez au `build.gradle` :
 
 ```groovy
 mainClassName = 'org.giwi.xml.Main'
